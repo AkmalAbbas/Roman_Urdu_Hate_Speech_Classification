@@ -2,7 +2,7 @@
 Hate Speech is a specfic type of a controversial content that is widely thought of as a crime and it needs to be identified and blocked. However due to large sum of twitter data it is very difficult to perform the hate speech detection manually. To address this issue many researchers and AI practitioner have conducted different studies and implemented algorithms to detect the abusive and offensive content in the tweets and flag them as inappropriate but these studies are carried out mostly on english language. There is a huge gap in research for implementing Machine learning algorithms on Roman Urdu/Hindi dataset to detect inappropriate tweets from the twitter data.
 In this project i have tried to implement different techniques of machine learning and deep learning to address this issue.
 Please feel free to use the code.
-Special Thanks for the dataset Link is given below
+Special Thanks for the dataset Link is given below \n
 Link: https://github.com/haroonshakeel/roman_urdu_hate_speech
 
 #### -- Project Status: [Active]
