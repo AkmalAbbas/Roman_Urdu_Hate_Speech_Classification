@@ -1,78 +1,33 @@
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+# Hate Speech Detection in Roman Urdu Tweets
+Hate Speech is a specfic type of a controversial content that is widely thought of as a crime and it needs to be identified and blocked. However due to large sum of twitter data it is very difficult to perform the hate speech detection manually. To address this issue many researchers and AI practitioner have conducted different studies and implemented algorithms to detect the abusive and offensive content in the tweets and flag them as inappropriate but these studies are carried out mostly on english language. There is a huge gap in research for implementing Machine learning algorithms on Roman Urdu/Hindi dataset to detect inappropriate tweets from the twitter data.
+In this project i have tried to implement different techniques of machine learning and deep learning to address this issue.
+Please feel free to use the code.
+Special Thanks for the dataset Link is given below
+Link: https://github.com/haroonshakeel/roman_urdu_hate_speech
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Active]
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+## Project Brief
+Social media is now very much incorporated in the modern life style. Most of the users try to use these platforms to express their feeling and thoughts to the world positively but there are huge number of complaints and cases where people try to use abusive/offensive language on the social media, which results in bullying of the social media users.
+In this project i have used the dataset from [https://github.com/haroonshakeel/roman_urdu_hate_speech], and by using diffrerent tools and techniques of natural language processing implemented an algorithm which helps in classifying the Normal/Neutral tweets from the Abusive and Hate speech tweets.
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+## Files Description
+You will find three files in the project, 
+Cleaned_data.csv: if you want to use already preprocessed file then you can consume this file and can implement your finding and techniques on it to develope the algorithms.
+Roman_Urdu_Hate_Speech_Dataset.csv: This file only contains the tweets and their respective labels.
+Roman_Urdu_Hate_Speech.ipynb: This is the notebook file which is built using google colab.
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
+* Data Cleaning and Wrangling
 * Data Visualization
-* Predictive Modeling
-* etc.
+* Machine Learning
+* Deep Learning
+* Natural Language Processing
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
-
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+* Pandas for data manipulation
+* Numpy for mathematical calculations
+* Sklearn for implementing ML algorithms
+* Tensorflow & Keras for implementing Deep Learning algorithms
+* Seaborn and Matplotlib for EDA and Visualization
